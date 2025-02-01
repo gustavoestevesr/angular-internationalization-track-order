@@ -1,0 +1,34 @@
+<mat-toolbar color="primary">
+  <span i18n>My Orders</span>
+  <span class="spacer"></span>
+</mat-toolbar>
+
+<main>
+  @for (purchase of listPurchases; track $index; let index = $index) {
+  <mat-card class="purchase-card">
+    <mat-card-header class="header-card">
+      <mat-card-title i18n>Purchase {{ index + 1 }}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="contet-card">
+      @for (item of purchase; track $index) {
+      <mat-card-title>{{ item.name }}</mat-card-title>
+      <mat-card-subtitle
+        >{{ item.quantity }} x {{ item.price | currency }}</mat-card-subtitle
+      >
+      }
+    </mat-card-content>
+
+    <mat-card-actions class="actions-card">
+      <button
+        i18n
+        color="primary"
+        mat-raised-button
+        (click)="openStatusOrderModalClick(purchase)"
+      >
+        See Status
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  }
+</main>
