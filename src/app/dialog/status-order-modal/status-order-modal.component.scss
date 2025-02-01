@@ -1,0 +1,42 @@
+mat-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.shipping-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  .title {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: #666;
+  }
+}
+
+table {
+  min-width: 600px;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.total-amount-label,
+.total-amount-value {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
