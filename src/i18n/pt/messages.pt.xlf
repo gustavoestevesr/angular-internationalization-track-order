@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" target-language="pt-BR" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="1737753151350322492" datatype="html">
         <source><x id="PH" equiv-text="this.title"/></source>
@@ -11,34 +11,82 @@
       </trans-unit>
       <trans-unit id="7737379552801309232" datatype="html">
         <source>Truck icon</source>
-        <target>Ícone de caminhão</target>
+        <target>Ícone caminhão</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">5,6</context>
+          <context context-type="linenumber">160,161</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8529294985780437372" datatype="html">
-        <source> Your order is on its way! <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>truck<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
-        <target> Seu pedido está a caminho! <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>caminhão<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></target>
+      <trans-unit id="7694256893852922362" datatype="html">
+        <source>Your order is on its way!</source>
+        <target>Seu pedido está a caminho!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">171,173</context>
+          <context context-type="linenumber">686,687</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="55155116863825370" datatype="html">
-        <source> Thank you for shooping with us and your order has been processed. </source>
-        <target> Obrigado por comprar conosco! Seu pedido foi processado. </target>
+      <trans-unit id="8563284821606761133" datatype="html">
+        <source> Your order is being transported and will arrive soon. </source>
+        <target>Seu pedido está sendo transportado e chegará em breve.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">174,175</context>
+          <context context-type="linenumber">688,689</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1688204331740087554" datatype="html">
+        <source>Your order has been confirmed!</source>
+        <target>Seu pedido foi confirmado!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">691,692</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2900651924364306193" datatype="html">
+        <source> We have received your order and it is now being processed. </source>
+        <target>Recebemos seu pedido e ele está sendo processado.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">693,694</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5702791123652340016" datatype="html">
+        <source>Your order has been delivered!</source>
+           <target>Seu pedido foi entregue!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">696,697</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5570250755094141850" datatype="html">
+        <source> Your package has arrived. We hope you enjoy your purchase! </source>
+           <target>Seu pacote chegou. Esperamos que você aproveite sua compra!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">698,699</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4901893442938003386" datatype="html">
+        <source>Your order is being prepared!</source>
+                   <target>Seu pedido está sendo preparado!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">701,702</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3056539433738270219" datatype="html">
+        <source> We are working on your order and will ship it as soon as possible. </source>
+        <target>Estamos trabalhando no seu pedido e o enviaremos o mais rápido possível.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
+          <context context-type="linenumber">703,704</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8075168556531069883" datatype="html">
         <source>Item</source>
-        <target>Item</target>
+         <target>Item</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">179,180</context>
+          <context context-type="linenumber">709,710</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2969450296974110107" datatype="html">
@@ -46,15 +94,15 @@
         <target>Qtd</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">180,181</context>
+          <context context-type="linenumber">710,711</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3973931101896534797" datatype="html">
         <source>Date</source>
-        <target>Data</target>
+        <target>Date</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">181,182</context>
+          <context context-type="linenumber">711,712</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6533918067030990396" datatype="html">
@@ -62,26 +110,26 @@
         <target>Valor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">182,183</context>
+          <context context-type="linenumber">712,713</context>
         </context-group>
       </trans-unit>
       <trans-unit id="187187500641108332" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{ item.name }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">187,188</context>
+          <context context-type="linenumber">717,718</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">188,189</context>
+          <context context-type="linenumber">718,719</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">189,190</context>
+          <context context-type="linenumber">719,720</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">190,191</context>
+          <context context-type="linenumber">720,721</context>
         </context-group>
       </trans-unit>
       <trans-unit id="112783260724635106" datatype="html">
@@ -89,7 +137,7 @@
         <target>Valor Total</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
-          <context context-type="linenumber">197,198</context>
+          <context context-type="linenumber">727,728</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4821674313462954142" datatype="html">
@@ -97,7 +145,7 @@
         <target>Meus Pedidos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/orders-list/orders-list.component.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6611023552535004556" datatype="html">
@@ -105,15 +153,15 @@
         <target>Compra <x id="INTERPOLATION" equiv-text="{{ index + 1 }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/orders-list/orders-list.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6514025706905452702" datatype="html">
-        <source> See Status </source>
-        <target> Ver Status </target>
+      <trans-unit id="4946447315845235688" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon class=&quot;btn-icon&quot;&gt;"/>info<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/> See Status </source>
+        <target><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon class=&quot;btn-icon&quot;&gt;"/>info<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/> Ver Status </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/orders-list/orders-list.component.html</context>
-          <context context-type="linenumber">29,30</context>
+          <context context-type="linenumber">37,39</context>
         </context-group>
       </trans-unit>
     </body>
