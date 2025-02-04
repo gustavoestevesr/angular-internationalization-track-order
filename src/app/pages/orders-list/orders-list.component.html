@@ -1,21 +1,29 @@
 <mat-toolbar color="primary">
-  <span i18n>My Orders</span>
-  <span class="spacer"></span>
+  <mat-icon>shopping_cart</mat-icon>
+  <span i18n class="brand-name">My Orders</span>
 </mat-toolbar>
 
 <main>
   @for (purchase of listPurchases; track $index; let index = $index) {
   <mat-card class="purchase-card">
     <mat-card-header class="header-card">
-      <mat-card-title i18n>Purchase {{ index + 1 }}</mat-card-title>
+      <mat-card-title>
+        <mat-icon class="title-icon">receipt_long</mat-icon>
+        <span i18n>Purchase {{ index + 1 }}</span>
+      </mat-card-title>
     </mat-card-header>
 
-    <mat-card-content class="contet-card">
+    <mat-card-content class="content-card">
       @for (item of purchase; track $index) {
-      <mat-card-title>{{ item.name }}</mat-card-title>
-      <mat-card-subtitle
-        >{{ item.quantity }} x {{ item.price | currency }}</mat-card-subtitle
-      >
+      <div class="item-row">
+        <mat-icon class="item-icon">shopping_bag</mat-icon>
+        <div>
+          <mat-card-title>{{ item.name }}</mat-card-title>
+          <mat-card-subtitle>
+            {{ item.quantity }} x {{ item.price | currency }}
+          </mat-card-subtitle>
+        </div>
+      </div>
       }
     </mat-card-content>
 
@@ -26,6 +34,7 @@
         mat-raised-button
         (click)="openStatusOrderModalClick(purchase)"
       >
+        <mat-icon class="btn-icon">info</mat-icon>
         See Status
       </button>
     </mat-card-actions>

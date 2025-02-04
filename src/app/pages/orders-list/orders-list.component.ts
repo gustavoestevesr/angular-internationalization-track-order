@@ -1,14 +1,15 @@
+import { CurrencyPipe } from '@angular/common';
 import { Component, inject } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import {
   Item,
   StatusOrderModalComponent,
 } from '../../dialog/status-order-modal/status-order-modal.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
-import { CommonModule, CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-orders-list',
@@ -20,7 +21,7 @@ import { CommonModule, CurrencyPipe } from '@angular/common';
     MatButtonModule,
     MatCardModule,
     CurrencyPipe,
-    CommonModule,
+    MatExpansionModule
   ],
   templateUrl: './orders-list.component.html',
   styleUrls: ['./orders-list.component.scss'],
