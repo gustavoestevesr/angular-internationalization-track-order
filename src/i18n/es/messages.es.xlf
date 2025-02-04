@@ -83,7 +83,7 @@
       </trans-unit>
       <trans-unit id="8075168556531069883" datatype="html">
         <source>Item</source>
-        <target>Item</target>
+        <target>Artículo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
           <context context-type="linenumber">709,710</context>
@@ -99,7 +99,7 @@
       </trans-unit>
       <trans-unit id="3973931101896534797" datatype="html">
         <source>Date</source>
-        <target>Date</target>
+        <target>Fecha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
           <context context-type="linenumber">711,712</context>
@@ -107,7 +107,7 @@
       </trans-unit>
       <trans-unit id="6533918067030990396" datatype="html">
         <source>Amount</source>
-        <target>Amount</target>
+        <target>Monto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog/status-order-modal/status-order-modal.component.html</context>
           <context context-type="linenumber">712,713</context>
@@ -150,7 +150,7 @@
       </trans-unit>
       <trans-unit id="6611023552535004556" datatype="html">
         <source>Purchase <x id="INTERPOLATION" equiv-text="{{ index + 1 }}"/></source>
-        <source>Compra <x id="INTERPOLATION" equiv-text="{{ index + 1 }}"/></source>
+        <target>Compra <x id="INTERPOLATION" equiv-text="{{ index + 1 }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/orders-list/orders-list.component.html</context>
           <context context-type="linenumber">12,13</context>
